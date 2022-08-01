@@ -3,7 +3,6 @@ target: jpp-jumandic-bootstrap
 testsuite:
   - file://test.mdic
 cmds:
-  - cmd: /repo/build/src/jumandic/jpp_jumandic_bootstrap /test.mdic out
-    filepath: /test.mdic
+  - cmd: /jpp_jumandic_bootstrap @@ out
     env:
       DISABLE_SMOKETEST: '1'
