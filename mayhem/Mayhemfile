@@ -1,0 +1,8 @@
+project: jumanpp
+target: jpp-jumandic-bootstrap
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/jpp-jumandic-bootstrap/testsuite
+cmds:
+  - cmd: /mayhem/jpp_jumandic_bootstrap
+    libfuzzer: true
